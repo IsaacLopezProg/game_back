@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cheff",
+      "handler": "cheff.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cheff",
+      "handler": "cheff.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cheff",
+      "handler": "cheff.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
