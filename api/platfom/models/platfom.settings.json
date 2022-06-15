@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "platfoms",
+  "info": {
+    "name": "platfom"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "platfom": {
+      "type": "uid",
+      "targetField": "nombre",
+      "required": true
+    },
+    "position": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
